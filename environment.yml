@@ -27,6 +27,7 @@ dependencies:
   - sqlite=3.33
   - urllib3=1.26
   - widgetsnbextension=3.5
+  - colorcet=2
   - pip:
     - h5py==3.3
     - ipykernel==6.0
