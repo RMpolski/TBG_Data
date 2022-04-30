@@ -2,6 +2,8 @@
 
 Binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RMpolski/TBG_Data/main)
 
+Data link: Caltech data doi [10.22002/D1.20151](https://dx.doi.org/10.22002/D1.20151). This needs to be downloaded to use the analysis notebooks. It will be downloaded by the Jupyter Notebooks in order to allow binder to work.
+
 This dataset contains the experimental data and analysis from the following two papers:
 
 Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Choi, Hyunjin Kim, Zhong Lin, Ilham Zaky Wilson, Xiaodong Xu, Jiun-Haw Chu, Kenji Watanabe, Takashi Taniguchi, Jason Alicea, Stevan Nadj-Perge, "Superconductivity in metallic twisted bilayer graphene stabilized by WSe2", Nature 583, 379-384 (2020), https://doi.org/10.1038/s41586-020-2473-8, ArXiv: 2002.03003
