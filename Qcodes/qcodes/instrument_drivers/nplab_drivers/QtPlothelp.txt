@@ -1,0 +1,46 @@
+Help for using the QtPlot function
+
+functions:
+
+QtPlot (base):
+    instantiates plot object
+    kwargs:
+        window_title: self explanatory
+        interval: time between plot updates
+        figsize: (width, height) of image in pixels standardly (1000, 600)
+        show_window: boolean
+        fig_x_pos: fraction of screen width to place figure (0 left, 1 right)
+        fig_y_pos: same (0 top, 1 bottom)
+
+    other args/kwargs passed onto add:
+    args:
+        y or z (just one arg): y for 1D data, x is taken from setpoints,
+                z for 2D data, x and y taken from setpoints
+        x, y or x, y, z: fully specifies the axes of the data
+    kwargs:
+        can use just y=y for 1D or z=z for 2D, but must include these. Then,
+                you can specify x=x, y=y optionally or just one of them.
+        if 1D:
+            name: label to be used in the legend
+            color: not sure what color codes work
+            width: Pen(line) width performance issues with width > 1
+            symbol: Things like 'o', '.', '+'
+        if 2D:
+            cmap: can be found in qcodes/plots/colors.py (e.g. 'RdBu' and 'viridis')
+            zlabel: self explanatory
+            zunit: self explanatory. Gets label and unit automatically if not given
+
+    functions:
+        add(*args, updater=None, **kwargs): adds a trace to the plot.
+                args and kwargs described above
+        replace(*args, updater=None, **kwargs): clears content and adds trace,
+                sending *args and **kwargs to add
+        clear(): clears window, removes all subplots and traces
+        set_cmap(cmap, traces=None): sets color map for the traces (integers)
+                or for all traces if none given. Color maps seem to be found in
+                the qcodes/plots/colors.py file (e.g. 'RdBu' and 'viridis')
+        save(filename=None): gets default title if none
+        autorange(reset_colorbar=False): auto range all limits again and resets
+                to original figure size
+        fixUnitScaling(startranges): not sure how this works
+        update(): self explanatory

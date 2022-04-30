@@ -1,0 +1,36 @@
+name: qcodes
+channels:
+  - defaults
+dependencies:
+  - ipympl=0.7
+  - ipython=7.26
+  - ipywidgets=7.6
+  - jupyter=1.0
+  - jupyter_client=6.1
+  - jupyter_console=6.4
+  - jupyterlab=3.1
+  - jupyterlab_widgets=1.0
+  - matplotlib=3.4
+  - nbclassic=0.2
+  - nbclient=0.5
+  - nbconvert=6.1
+  - nbformat=5.1
+  - notebook=6.4
+  - numpy=1.21
+  - pandas
+  - pip
+  - python=3.8.0
+  - pyserial
+  - qtconsole=5.1
+  - scipy=1.6
+  - setuptools=52.0
+  - sqlite=3.33
+  - urllib3=1.26
+  - widgetsnbextension=3.5
+  - pip:
+    - h5py==3.3
+    - ipykernel==6.0
+    - lmfit==1.0.2
+    - caltechdata_api
+    - -e ./Qcodes
+prefix: /Users/robertpolski/opt/anaconda3/envs/qcodes
