@@ -1,0 +1,202 @@
+{
+    "loop": {
+        "__class__": "qcodes.loops.ActiveLoop",
+        "sweep_values": {
+            "parameter": {
+                "value": 0.0,
+                "ts": "2019-09-30 19:33:34",
+                "raw_value": 0.0,
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "k2200_voltage",
+                "post_delay": 0,
+                "vals": "<Numbers 0<=v<=72>",
+                "step": 0.08,
+                "instrument": "qcodes.instrument_drivers.nplab_drivers.Keithley_2200.Keithley_2200",
+                "instrument_name": "k2200",
+                "unit": "V",
+                "inter_delay": 0.1,
+                "name": "voltage",
+                "label": "voltage"
+            },
+            "values": [
+                {
+                    "min": 0.0,
+                    "max": 10.0,
+                    "first": 10.0,
+                    "last": 0.0,
+                    "num": 201,
+                    "type": "sequence"
+                }
+            ]
+        },
+        "delay": 1.5,
+        "actions": [
+            {
+                "value": 0.000122548,
+                "ts": "2019-09-30 19:33:36",
+                "raw_value": "0.000122548\n",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "lockin1_X",
+                "post_delay": 0,
+                "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+                "instrument_name": "lockin1",
+                "unit": "V",
+                "inter_delay": 0,
+                "name": "X",
+                "label": "X"
+            },
+            {
+                "value": -7.47745e-05,
+                "ts": "2019-09-30 19:33:36",
+                "raw_value": "-7.47745e-005\n",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "lockin1_Y",
+                "post_delay": 0,
+                "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+                "instrument_name": "lockin1",
+                "unit": "V",
+                "inter_delay": 0,
+                "name": "Y",
+                "label": "Y"
+            },
+            {
+                "value": 3.20079e-05,
+                "ts": "2019-09-30 19:33:36",
+                "raw_value": "3.20079e-005\n",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "lockin2_X",
+                "post_delay": 0,
+                "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+                "instrument_name": "lockin2",
+                "unit": "V",
+                "inter_delay": 0,
+                "name": "X",
+                "label": "X"
+            },
+            {
+                "value": -1.00434e-05,
+                "ts": "2019-09-30 19:33:36",
+                "raw_value": "-1.00434e-005\n",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "lockin2_Y",
+                "post_delay": 0,
+                "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+                "instrument_name": "lockin2",
+                "unit": "V",
+                "inter_delay": 0,
+                "name": "Y",
+                "label": "Y"
+            }
+        ],
+        "then_actions": [],
+        "ts_start": "2019-09-30 19:37:24",
+        "use_threads": false,
+        "ts_end": "2019-09-30 19:43:10"
+    },
+    "__class__": "qcodes.data.data_set.DataSet",
+    "location": "data/2019-09-30/#012_5nA_1p8K_9T_19-37-22",
+    "arrays": {
+        "k2200_voltage_set": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0.0,
+            "full_name": "k2200_voltage",
+            "post_delay": 0,
+            "vals": "<Numbers 0<=v<=72>",
+            "step": 0.08,
+            "instrument": "qcodes.instrument_drivers.nplab_drivers.Keithley_2200.Keithley_2200",
+            "instrument_name": "k2200",
+            "unit": "V",
+            "inter_delay": 0.1,
+            "name": "voltage",
+            "label": "voltage",
+            "array_id": "k2200_voltage_set",
+            "shape": [
+                201
+            ],
+            "action_indices": [],
+            "is_setpoint": true
+        },
+        "lockin1_X": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": "0.000122548\n",
+            "full_name": "lockin1_X",
+            "post_delay": 0,
+            "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+            "instrument_name": "lockin1",
+            "unit": "V",
+            "inter_delay": 0,
+            "name": "X",
+            "label": "X",
+            "array_id": "lockin1_X",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                0
+            ],
+            "is_setpoint": false
+        },
+        "lockin1_Y": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": "-7.47745e-005\n",
+            "full_name": "lockin1_Y",
+            "post_delay": 0,
+            "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+            "instrument_name": "lockin1",
+            "unit": "V",
+            "inter_delay": 0,
+            "name": "Y",
+            "label": "Y",
+            "array_id": "lockin1_Y",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                1
+            ],
+            "is_setpoint": false
+        },
+        "lockin2_X": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": "3.20079e-005\n",
+            "full_name": "lockin2_X",
+            "post_delay": 0,
+            "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+            "instrument_name": "lockin2",
+            "unit": "V",
+            "inter_delay": 0,
+            "name": "X",
+            "label": "X",
+            "array_id": "lockin2_X",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                2
+            ],
+            "is_setpoint": false
+        },
+        "lockin2_Y": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": "-1.00434e-005\n",
+            "full_name": "lockin2_Y",
+            "post_delay": 0,
+            "instrument": "qcodes.instrument_drivers.stanford_research.SR830.SR830",
+            "instrument_name": "lockin2",
+            "unit": "V",
+            "inter_delay": 0,
+            "name": "Y",
+            "label": "Y",
+            "array_id": "lockin2_Y",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                3
+            ],
+            "is_setpoint": false
+        }
+    },
+    "formatter": "qcodes.data.gnuplot_format.GNUPlotFormat",
+    "io": "<DiskIO, base_location='C:\\\\Users\\\\tfrlab\\\\Documents\\\\Data\\\\Users\\\\NPLab\\\\qcodes_data'>"
+}
