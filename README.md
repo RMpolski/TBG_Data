@@ -2,7 +2,7 @@
 
 Binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RMpolski/TBG_Data/main)
 
-Data link: Caltech data doi [10.22002/D1.20151](https://dx.doi.org/10.22002/D1.20151). This needs to be downloaded to use the analysis notebooks. It will be downloaded by the Jupyter Notebooks in order to allow binder to work.
+Data link: Caltech data doi [10.22002/D1.20151](https://dx.doi.org/10.22002/D1.20151). This needs to be downloaded to use the analysis notebooks. It will be downloaded by the Jupyter Notebooks in order to allow binder to work. Here is a link to the Caltech data saved repository [![DOI](https://data.caltech.edu/badge/487155960.svg)](https://data.caltech.edu/badge/latestdoi/487155960)
 
 This dataset contains the experimental data and analysis from the following two papers:
 
