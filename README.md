@@ -6,11 +6,11 @@ Data link: Caltech data doi [10.22002/D1.20151](https://dx.doi.org/10.22002/D1.2
 
 This dataset contains the experimental data and analysis from the following two papers:
 
-Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Choi, Hyunjin Kim, Zhong Lin, Ilham Zaky Wilson, Xiaodong Xu, Jiun-Haw Chu, Kenji Watanabe, Takashi Taniguchi, Jason Alicea, Stevan Nadj-Perge, "Superconductivity in metallic twisted bilayer graphene stabilized by WSe2", Nature 583, 379-384 (2020), https://doi.org/10.1038/s41586-020-2473-8, ArXiv: 
+Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Choi, Hyunjin Kim, Zhong Lin, Ilham Zaky Wilson, Xiaodong Xu, Jiun-Haw Chu, Kenji Watanabe, Takashi Taniguchi, Jason Alicea, Stevan Nadj-Perge, "Superconductivity in metallic twisted bilayer graphene stabilized by WSe2", Nature 583, 379-384 (2020), https://doi.org/10.1038/s41586-020-2473-8, ArXiv: 2002.03003
 
 and
 
-Robert Polski*, Yiran Zhang*, Yang Peng, Harpreet Singh Arora1, Youngjoon Choi, Hyunjin Kim, Kenji Watanabe, Takashi Taniguchi, Gil Refael, Felix von Oppen, and Stevan Nadj-Perge, "Hierarchy of symmetry breaking correlated phases in twisted bilayer graphene", ArXiv: 2112.09270 
+Robert Polski*, Yiran Zhang*, Yang Peng, Harpreet Singh Arora1, Youngjoon Choi, Hyunjin Kim, Kenji Watanabe, Takashi Taniguchi, Gil Refael, Felix von Oppen, and Stevan Nadj-Perge, "Hierarchy of symmetry breaking correlated phases in twisted bilayer graphene", ArXiv: 
 
 along with other analysis not included but along the same theme or same devices.
 
