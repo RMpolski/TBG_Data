@@ -6,7 +6,7 @@ Data link: Caltech data doi [10.22002/D1.20151](https://dx.doi.org/10.22002/D1.2
 
 This dataset contains the experimental data and analysis from the following two papers:
 
-Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Choi, Hyunjin Kim, Zhong Lin, Ilham Zaky Wilson, Xiaodong Xu, Jiun-Haw Chu, Kenji Watanabe, Takashi Taniguchi, Jason Alicea, Stevan Nadj-Perge, "Superconductivity in metallic twisted bilayer graphene stabilized by WSe2", Nature 583, 379-384 (2020), https://doi.org/10.1038/s41586-020-2473-8, ArXiv: 2002.03003
+Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Choi, Hyunjin Kim, Zhong Lin, Ilham Zaky Wilson, Xiaodong Xu, Jiun-Haw Chu, Kenji Watanabe, Takashi Taniguchi, Jason Alicea, Stevan Nadj-Perge, "Superconductivity in metallic twisted bilayer graphene stabilized by WSe2", Nature 583, 379-384 (2020), https://doi.org/10.1038/s41586-020-2473-8, ArXiv: 
 
 and
 
