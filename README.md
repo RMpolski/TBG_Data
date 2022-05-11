@@ -10,7 +10,7 @@ Harpreet Singh Arora*, Robert Polski*, Yiran Zhang*, Alex Thomson, Youngjoon Cho
 
 and
 
-Robert Polski*, Yiran Zhang*, Yang Peng, Harpreet Singh Arora1, Youngjoon Choi, Hyunjin Kim, Kenji Watanabe, Takashi Taniguchi, Gil Refael, Felix von Oppen, and Stevan Nadj-Perge, "Hierarchy of symmetry breaking correlated phases in twisted bilayer graphene", ArXiv: 
+Robert Polski*, Yiran Zhang*, Yang Peng, Harpreet Singh Arora1, Youngjoon Choi, Hyunjin Kim, Kenji Watanabe, Takashi Taniguchi, Gil Refael, Felix von Oppen, and Stevan Nadj-Perge, "Hierarchy of symmetry breaking correlated phases in twisted bilayer graphene", ArXiv: 2112.09270 
 
 along with other analysis not included but along the same theme or same devices.
 
